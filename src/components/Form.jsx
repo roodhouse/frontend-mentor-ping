@@ -35,7 +35,7 @@ function Form() {
           <div id="emailContainer" className='py-[10px] pl-8 rounded-[28px] border border-solid border-formBorder shadow-[0px_0px_7px_3px_rgba(0,0,0,0.00)] w-full xl:w-[421px] xl:order-1'>
             <input type="email" id='email' name='email' placeholder='Your email address...' className='placeholder:font-["Libre_Franklin"] placeholder:text-placeHolder placeholder:text-xs placeholder:leading-[20px] placeholder:font-light'
               {...register('email', {
-                required: 'Please provide a vaild email address',
+                required: 'Whoops! It looks like you forgot to add your email',
                 pattern: {
                   value:  /\w+@\w+\.\w{2,3}/,
                   message: 'Please provide a vaild email address'
