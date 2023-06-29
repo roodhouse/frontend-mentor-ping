@@ -1,8 +1,13 @@
 import React from 'react'
+import Graph from '../images/illustration-dashboard.png'
 
 function Image() {
   return (
-    <div>Image</div>
+    <>
+      <div id="imageContainer">
+        <img src={Graph} alt="Graph" />
+      </div>
+    </>
   )
 }
 
